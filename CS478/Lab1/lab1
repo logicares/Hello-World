@@ -1,0 +1,216 @@
+/home/lttaylor/CS478/Lab1
+    PID TTY          TIME CMD
+   2019 pts/0    00:00:00 bash
+   2063 pts/0    00:00:00 ps
+    1  man ls
+    2  dir
+    3  dir Desktop
+    4  dir
+    5  cd
+    6  cd dir
+    7  cd ..
+    8  exit
+    9  dir
+   10  cd
+   11  cd dirt
+   12  cd dir
+   13  dir Lab1
+   14  dir
+   15  dir CS478
+   16  dir Lab1
+   17  cd Lab1
+   18  ls
+   19  dir CS478
+   20  Lab1
+   21  dir ..
+   22  ls
+   23  ls CS 478
+   24  ls CS478
+   25  ls Lab1
+   26  dir CS478
+   27  ls Lab1
+   28  exit
+   29  git
+   30  sudo apt-get update
+   31  sudo apt-get install git
+   32  sudo apt-get update
+   33  git
+   34  sudo apt install git
+   35  git
+   36  cd CS478
+   37  pwd
+   38  mkdir gitpractice
+   39  cd gitpractive
+   40  cd gitpractice
+   41  git init
+   42  git status
+   43  git config --global user.name "lttaylor"
+   44  git config --global user.email paperboy4286@gmail.com
+   45  git config --list
+   46  git config --global core.editor vi
+   47  vi hello.txt
+   48  git config --global core.editor vi
+   49  vi hello.txt
+   50  cd CS478
+   51  cd gitpractice
+   52  git init
+   53  git status
+   54  rm hello.txt
+   55  rm hello.txt.swp
+   56  git add hello.txt
+   57  git add hello.txt.swp
+   58  git add .hello.txt.swp
+   59  rm .hello.txt.swp
+   60  vi hello.txt
+   61  cd gitpractice
+   62  cd CS478
+   63  cd gitpractice
+   64  cd init
+   65  git init
+   66  git status
+   67  rm .hello.txt.swp
+   68  git status
+   69  git commit
+   70  cd CS478
+   71  cd gitpractice
+   72  git init
+   73  git status
+   74  git rm .hello.txt.swp
+   75  git status
+   76  git commit -m 'deleted files'
+   77  git
+   78  vi hello.txt
+   79  git status
+   80  git add hello.txt
+   81  git status
+   82  git commit -m "added hello world txt"
+   83  git commit
+   84  git log
+   85  git log --oneline
+   86  git log -n3
+   87  git log -p
+   88  git log -n3 -p
+   89  git checkout
+   90  git log
+   91  git checkout -0400
+   92  git checkout <-0400>
+   93  git log
+   94  git checkout 99f8b1ffc168f82726e396e5cb0d04b64eab0d69
+   95  git checkout master
+   96  git checkout 99f8b1ffc168f82726e396e5cb0d04b64eab0d69 hello.txt
+   97  git checkout HEAD hello.txt
+   98  vi .gitignore
+   99  git status
+  100  git add .gitignore
+  101  git commit -m "gitignore added"
+  102  git log
+  103  mkdir bin
+  104  touch bin/somefile.exe
+  105  touch file.class
+  106  git status
+  107  git diff
+  108  git diff --staged
+  109  cd bin
+  110  touch bin/somefile.exe
+  111  touch file.class
+  112  git status
+  113  git diff
+  114  git diff --staged
+  115  git rm somefile.exe
+  116  git init
+  117  git rm somefile.exe
+  118  cd CS478
+  119  git rm somefile.exe
+  120  cd ..
+  121  ps > file3
+  122  history >> file3
+  123  cat file3
+  124  git clone https://github.com/lttaylor1/Hello-World
+  125  git clone https://github.com/Hello-World.git
+  126  git clone https://github.com/lttaylor1/Hello-World.git
+  127  git add -A
+  128  git commit -m "changes"
+  129  git push
+  130  cd Hello-World/
+  131  git add -A
+  132  git commit -m "added files"
+  133  git push
+  134  git add -A
+  135  git commit "deleted files"
+  136  git commit -m "deleted files"
+  137  git push
+  138  git add -A
+  139  git commit -m "added files"
+  140  git push
+  141  _
+  142  -
+  143  git clone https://github.com/NAEBusiness/Recomposition.git
+  144  cd Recomposition
+  145  git remote -v
+  146  vi newfile
+  147  echo "new file contents" > newfile
+  148  git add newfile
+  149  git commit -m 'practice changes'
+  150  git push
+  151  cd CS478
+  152  /
+  153  \
+  154  cd CS478
+  155  vi newfile
+  156  cd Recompostion
+  157  cd Recomposition
+  158  rm newfile
+  159  git commit -m "deleted practice file"
+  160  git push
+  161  git rm newfile
+  162  git commit -m "deleted practice file"
+  163  git push
+  164  cd Recomposition
+  165  vi newfile
+  166  echo "new file contents" > newfile
+  167  git add newfile
+  168  git commit -m "added practice file"
+  169  git push
+  170  git rm newfile
+  171  git commit -m "deleted practice file"
+  172  git push
+  173  /CsS478
+  174  /CS478
+  175  cd CS478
+  176  ls
+  177  pwd 
+  178  ls/
+  179  cd /
+  180  cd /Lab1
+  181  cd /CS478
+  182  cd Cs478
+  183  cs CS478
+  184  cd CS478
+  185  cd Lab1
+  186  pwd
+  187  cat file1
+  188  cat file2
+  189  man ls
+  190  cat lab1
+  191  cd CS478
+  192  cd Lab1
+  193  cd ..
+  194  mv CS478 Practice
+  195  cd ..
+  196  mv CS478 Practice
+  197  cd Practive
+  198  cd Practice
+  199  cd Lab1
+  200  mkdir CS478
+  201  cd CS478
+  202  mkdir Lab1
+  203  cd Lab1
+  204  ls
+  205  cd ..
+  206  cd Lab1 
+  207  pwd > file1
+  208  ls
+  209  cat file1
+  210  ps > file2
+  211  cat file2
+  212  history >> file2
